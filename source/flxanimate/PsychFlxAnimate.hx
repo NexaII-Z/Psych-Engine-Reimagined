@@ -61,7 +61,7 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 
 		anim._loadAtlas(animJson);
 		// fromSpriteMap was renamed to fromTextureAtlas in newer flxanimate versions
-		if(!isXml) frames = FlxAnimateFrames.fromTextureAtlas(cast myData, img);
+		if(!isXml) frames = FlxAnimateFrames.fromTextureAtlas(cast myData);
 		else frames = FlxAnimateFrames.fromSparrow(cast myData, img);
 		origin = anim.curInstance.symbol.transformationPoint;
 	}
