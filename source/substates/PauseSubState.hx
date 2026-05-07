@@ -143,7 +143,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		#if mobile
 		addTouchPad(PlayState.chartingMode ? 'LEFT_FULL' : 'UP_DOWN', 'A');
-		addToucad(menuItems.contains('Skip Time') ? 'LEFT_FULL' : 'UP_DOWN', 'A');
+		addTouchPad(menuItems.contains('Skip Time') ? 'LEFT_FULL' : 'UP_DOWN', 'A');
 		addTouchPadCamera();
 		#end
 
